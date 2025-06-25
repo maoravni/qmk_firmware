@@ -1,0 +1,12 @@
+// Copyright 2023 Gustaw.xyz (@Gustaw.xyz)
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PIN GP9
+#define SERIAL_USART_RX_PIN GP8
+
+#define MATRIX_ROW_PINS { GP29, GP28, GP27, GP26, GP11, GP21, GP20 }
+#define MATRIX_COL_PINS { GP2, GP3, GP4, GP5, GP6, GP7, GP10}
