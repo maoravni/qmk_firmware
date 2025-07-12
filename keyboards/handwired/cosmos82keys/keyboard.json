@@ -2,13 +2,13 @@
     "keyboard_name": "Cosmos 82 (6x7)",
     "manufacturer": "Maor",
     "maintainer": "Maor",
+    "bootloader": "rp2040",
+    "processor": "RP2040",
     "usb": {
         "vid": "0x444D",
         "pid": "0x3636",
         "device_version": "0.0.1"
     },
-    "processor": "RP2040",
-    "bootloader": "rp2040",
     "diode_direction": "ROW2COL",
     "features": {
         "command": true,
@@ -32,7 +32,7 @@
             "watchdog": true
         },
     },
-    "development_board": "promicro",
+    //"development_board": "promicro_rp2040",
     "layouts": {
         "LAYOUT": {
             "layout": [

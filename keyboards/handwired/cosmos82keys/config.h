@@ -1,4 +1,4 @@
-//// Copyright 2023 Gustaw.xyz (@Gustaw.xyz)
+//// Copyright 2025 Maor Avni
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -20,14 +20,14 @@
 // #define MATRIX_COL_PINS { GP2, GP3, GP4, GP5, GP6, GP7, GP10}
 
 // SPI Configuration
-#define SPI_DRIVER SPID0
-#define SPI_SCK_PIN GP18
-#define SPI_MOSI_PIN GP19
-#define SPI_MISO_PIN GP16
-#define OLED_DC_PIN GP15
-#define OLED_CS_PIN GP17
+// #define SPI_DRIVER SPID0
+// #define SPI_SCK_PIN GP18
+// #define SPI_MOSI_PIN GP19
+// #define SPI_MISO_PIN GP16
+// #define OLED_DC_PIN GP15
+// #define OLED_CS_PIN GP17
 
-#define OLED_DISPLAY_128X64
-#define OLED_UPDATE_INTERVAL 50
-#define OLED_TIMEOUT 0
-#define OLED_IC SSD1306
+// #define OLED_DISPLAY_128X64
+// #define OLED_UPDATE_INTERVAL 50
+// #define OLED_TIMEOUT 0
+// #define OLED_IC SSD1306
